@@ -1,0 +1,363 @@
+
+/* NOTE: Header */
+
+header {
+  border: 1px solid blue;
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+
+header .logo {
+  height: 32px;
+  padding-left: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav {
+  padding-right: 24px;
+}
+
+nav span {
+  padding: 0 12px 0 12px
+}
+
+/* NOTE: jumbotron */
+
+.jumbotron {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6e6;
+
+}
+
+.jumbocontent {
+  display: flex;
+  border: 1px solid blue;
+  width: 1400px;
+  padding: 32px 0px 32px 0px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.jumboimage {
+  border: 1px solid red;
+  display: flex;
+  width: 60%;
+}
+
+.jumboimage img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.jumbotext {
+  border: 1px solid blue;
+  height: 300px;
+  padding-left: 24px;
+  width: 400px;
+}
+
+.button {
+    border: 1px solid blue;
+    background-color: #a9a9a9;
+    text-align: center;
+    height: auto;
+    width: 400px;
+}
+
+.button h2 {
+  padding: 8px 0 8px 0;
+  font-size: 1.2rem;
+}
+
+
+
+/* NOTE: News Section */
+
+.news {
+  display: flex;
+  justify-content: center;
+    border: 1px solid blue;
+
+}
+
+.newscontainer {
+  width: 1400px;
+  border: 1px solid red;
+  display: flex;
+}
+
+/* NOTE: large News */
+
+.newslarge {
+  border: 1px solid blue;
+  width: 60%;
+  padding: 32px 24px 32px 24px;
+
+}
+
+.newslarge .imagereading {
+  border: 1px solid blue;
+  background-image: url("../../images/information-main.jpg");
+  height: 443px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newslargetext {
+  border: 1px solid blue;
+}
+/* NOTE: List newssmall */
+
+.newslist {
+  border: 1px solid blue;
+  width: 40%;
+  background-color: #D3D3D3;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.newssmallcontainer {
+    border: 1px solid blue;
+    padding: 16px;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.newslistimage {
+  width: 35%;
+  border: 1px solid blue;
+  height: auto;
+  background-size: cover;
+  min-width: 145px;
+  min-height: 145px;
+  max-width: 145px;
+  max-height: 145px;
+}
+
+.newslisttext {
+  width: 65%;
+  background-color: #e5fbff;
+  padding-left: 10px;
+}
+
+#one {
+    background-image: url("../../images/information-orientation.jpg");
+}
+
+#two {
+    background-image: url("../../images/information-campus.jpg");
+}
+
+#three {
+    background-image: url("../../images/information-guest-lecture.jpg");
+}
+
+
+/* NOTE: Courses Section */
+.course {
+  height: auto;
+  border: 1px solid red;
+  background-color: #cce4ff;
+  padding-bottom: 16px;
+}
+
+.course .courseheading {
+  border: 1px solid blue;
+  text-align:center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.course .courseheading h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.coursecontainer {
+  border: 1px solid blue;
+  height: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.coursewidth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+  border: 1px solid blue;
+}
+
+.coursesmall {
+  border: 1px solid blue;
+  min-height: 300px;
+  background-color: white;
+  width: 300px;
+  margin: 16px;
+
+}
+
+.courseimage {
+  height: 45%;
+  border: 1px solid blue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.coursetext {
+  height: auto;
+  border: 1px solid blue;
+  padding: 16px;
+}
+
+.coursetext h2 {
+  margin: 0;
+}
+
+.coursetext p {
+  margin: 0;
+}
+
+#coursetype {
+  padding: 8px 0 8px 0;
+  font-size: 0.8em;
+}
+
+#courseone {
+ background-image: url("../../images/course-software.jpg");
+}
+
+#coursetwo {
+ background-image: url("../../images/course-computer-art.jpg");
+}
+
+#coursethree {
+ background-image: url("../../images/course-design.jpg");
+}
+
+#coursefour {
+ background-image: url("../../images/course-data.jpg");
+}
+
+#coursefive {
+ background-image: url("../../images/course-business.jpg");
+}
+
+#coursesix {
+ background-image: url("../../images/course-marketing.jpg");
+}
+
+/* NOTE: Thesis Section */
+
+.thesiscontainer {
+  border: 1px solid blue;
+  height: auto;
+}
+
+.courseheading {
+  border: 1px solid blue;
+  text-align:center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.courseheading h2 {
+  margin: 0;
+}
+
+.thesis.remixer {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+}
+
+.thesis.width {
+    width: 1400px;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.thesis.video {
+  border: 1px solid blue;
+  width: 60%;
+  padding: 0 24px;
+}
+
+.thesis.list.container {
+  border: 1px solid blue;
+  width: 40%;
+}
+
+.thesisvideotext {
+  border: 1px solid blue;
+}
+
+.thesis.video .vid{
+  width: 100%;
+  height: 380px;
+}
+
+.thesisblock {
+    border: 1px solid blue;
+  height: auto;
+  background-color: red;
+  display: flex;
+      padding: 16px;
+      align-items: center;
+}
+
+.thesisimg {
+  width: 35%;
+  border: 1px solid blue;
+  height: auto;
+  background-size: cover;
+  min-width: 145px;
+  min-height: 145px;
+  max-width: 145px;
+  max-height: 145px;
+  margin-right: 16px;
+}
+
+.thesistxt {
+    border: 1px solid blue;
+    width: 65%;
+
+}
+
+#thesisone {
+ background-image: url("../../images/thesis-fisma.jpg");
+}
+
+#thesistwo {
+ background-image: url("../../images/thesis-now-and-then.jpg");
+}
+
+
+/* NOTE: footer */
+
+footer {
+  height: 100px;
+  border: 1px solid blue;
+  display: flex;
+  padding: 0 24px;
+    align-items: center;
+}
+
+.rightsreserved {
+  flex-grow: 1;
+}
